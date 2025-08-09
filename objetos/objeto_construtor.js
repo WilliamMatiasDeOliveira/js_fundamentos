@@ -31,11 +31,13 @@ function Pessoa(n, s, i) {
         this.sobrenome = novo_sobrenome
         this.idade = nova_idade
     }
+    // reade
     this.read = function () {
         console.log(pessoa.nome)
         console.log(pessoa.sobrenome)
         console.log(pessoa.idade)
     }
+    // update
     this.update = function (novo_nome, novo_sobrenome, nova_idade) {
 
         if (novo_nome != ""){
@@ -52,6 +54,7 @@ function Pessoa(n, s, i) {
         
     }
 
+    // delete
     this.delete = function(){
         this.nome = ""
         this.sobrenome = ""
