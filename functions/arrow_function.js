@@ -1,6 +1,6 @@
 
-const soma = (argumento) => {
+const menssagem = (argumento) => {
     console.log(argumento)
 }
 
-soma("Hello world")
+menssagem("Hello world")
