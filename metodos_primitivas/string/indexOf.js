@@ -1,4 +1,5 @@
 
+// este metodo faz o mesmo que search
 let frase = "Esta e uma frase de teste para o metodo indexOf"
 
 // se não encontrar a palavra retorna -1
